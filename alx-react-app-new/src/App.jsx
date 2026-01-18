@@ -34,6 +34,10 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div>
+      <h1>Counter App</h1>
+      <Counter />
+    </div>
        <WelcomeMessage />
        <Header />
        <MainContent />
