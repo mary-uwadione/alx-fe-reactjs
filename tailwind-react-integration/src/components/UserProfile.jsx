@@ -1,16 +1,43 @@
 function UserProfile() {
   return (
-    <div className="bg-gray-100 p-8 max-w-sm mx-auto my-20 rounded-lg shadow-lg">
+    <div
+      className="
+        bg-gray-100
+        sm:p-4 md:p-8
+        sm:max-w-xs md:max-w-sm
+        mx-auto my-20
+        rounded-lg shadow-lg
+      "
+    >
       <img
         src="https://via.placeholder.com/150"
         alt="User"
-        className="w-36 h-36 rounded-full mx-auto"
+        className="
+          sm:w-24 sm:h-24
+          md:w-36 md:h-36
+          rounded-full
+          mx-auto
+        "
       />
-      <h1 className="text-xl text-blue-800 my-4 text-center">
+      <h1
+        className="
+          sm:text-lg md:text-xl
+          text-blue-800
+          my-4
+          text-center
+        "
+      >
         John Doe
       </h1>
-      <p className="text-gray-600 text-base text-center">
-        Developer at Example Co. Loves to write code and explore new technologies.
+      <p
+        className="
+          sm:text-sm md:text-base
+          text-gray-600
+          text-center
+        "
+      >
+        Developer at Example Co. Loves to write code and explore new
+        technologies.
       </p>
     </div>
   );
